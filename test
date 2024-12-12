@@ -22,8 +22,7 @@
     
     <
 <h1>音源を繰り返し再生するプログラム</h1>
-    <audio id="audioPlayer" src="audio.mp3" loop></audio>
-    <br>
+ <audio controls loop src="audio.mp3" type="audio/mp3">大王製作所のテーマ曲</audio>    <br>
     
    
 <button onclick="playAudio()">再生</button>
