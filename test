@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    
+   
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>繰り返し再生プログラム</title>
+    
+   
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+
+</
+</head>
+<body>
+    
+    <
+<h1>音源を繰り返し再生するプログラム</h1>
+    <audio id="audioPlayer" src="audio.mp3" loop></audio>
+    <br>
+    
+   
+<button onclick="playAudio()">再生</button>
+    
+   
+<button onclick="pauseAudio()">一時停止</button>
+    
+    <
+<button onclick="stopAudio()">停止</button>
+
+    <script>
+        co
+
+       
+
+    
+
+        const audio = document.getElementById('audioPlayer
+
+        const audio = document.getElementById('audioPlayer');
+
+        // ページが読み込まれたら自動再生
+        window.onload = function() {
+            audio.play();
+        };
+
+        function playAudio() {
+            audio.play();
+        }
+
+        function pauseAudio() {
+            audio.pause();
+        }
+
+        function stopAudio() {
+            audio.pause();
+            audio.currentTime = 0; // 再生位置をリセット
+        }
+    </script>
+</body>
+
+</
+</html>
+
+``
